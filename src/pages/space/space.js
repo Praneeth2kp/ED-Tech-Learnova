@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import './space.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import arrow from '../../components/asserts/arrow.svg'
@@ -19,13 +19,18 @@ function Space() {
                            </div>
                        </div>
                        <div className="col">
-                           <img className="arrow" src={arrow}/>          
+                           <img className="arrow" alt="Arrow"src={arrow}/>          
                        </div>
 
                   </div>
                   <div className="box-2">
-                       <p>History</p>
-                       <Link className="link d-block" >Lorem Ipsum <img className="px-1 " src={arrow} alt="" /></Link>
+                      <div className="activitybox-1">
+                           <div className="row">
+                               <p className="history">History</p>
+                               <h1 className="lorem-1">Lorem Ipsum</h1>
+                               {/* <p>Lorem Ipsum is simpl.</p> */}
+                           </div>
+                       </div>
 
                    </div>
                    <div className="box-3">
