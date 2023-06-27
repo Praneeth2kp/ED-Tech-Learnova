@@ -21,7 +21,7 @@ function Navbar() {
       <div className="nav-box-1">
         <Link className="link d-block" to="/space" ><img className="px-1 " src={space} alt="" />Space</Link>
         <Link className="link d-block" to="/flashcard"><img className="px-1" src={flashcard} alt="" />Flashcards</Link>
-        <Link className="link d-block" to=""><img className="px-1" src={Quizze} alt="" />Quizzes</Link>
+        <Link className="link d-block" to="/quizzes"><img className="px-1" src={Quizze} alt="" />Quizzes</Link>
         <Link className="link d-block" to=""><img className="px-1" src={nava} alt="" />Nava AI</Link>
       </div>
        </div>

@@ -1,0 +1,23 @@
+.inprogress {
+    color: #292929;
+    font-size: 150%;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+.b-1 {
+    width: 60%;
+    height: 400%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F8DB39;
+}
+
+.b-2 {
+    width: 60%;
+    height: 400%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F8DB39;
+}

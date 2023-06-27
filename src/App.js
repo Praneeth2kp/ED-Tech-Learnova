@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 import Space from './pages/space/space';
 import Flashcard from './pages/flashcard/flashcard';
-
+import Quizzes from './pages/quizzes/quizzes'
 function App() {
   return (
     <Router>
@@ -17,6 +17,8 @@ function App() {
           <Routes>
             <Route path='/space' element={<Space />} />
             <Route path='/flashcard' element={<Flashcard />} />
+            <Route path='/quizzes' element={<Quizzes />} />
+
           </Routes>
         </div>
       </div>
