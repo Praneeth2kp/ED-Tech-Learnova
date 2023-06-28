@@ -2,38 +2,43 @@
     color: #292929;
     font-family: Poppins;
     margin-top: 4%;
-    padding-left: 5%;
+    padding-left: 4%;
     font-size: 27.113px;
     font-weight: 600;
-    
+
 }
-.f2{
+
+.f2 {
     font-size: 70%;
     font-weight: 100;
 }
 
-p{
+p {
     font-size: 150%;
     font-family: Poppins;
     font-weight: 600;
     color: blue;
 }
-.container-1{
+
+.container-1 {
     width: 60%;
-    height:130%;
+    height: 130%;
     position: absolute;
     top: 24%;
-    left:24%;
+    left: 24%;
     display: flex;
 
-} 
+}
+
 .container-1 .col {
-    margin-right: 20%; 
-  }
-.col p{
+    margin-right: 20%;
+}
+
+.col p {
     padding-top: 10%;
     text-align: center;
 }
+
 .img-1::after,
 .img-1::before {
     content: '';
@@ -42,31 +47,33 @@ p{
     width: 25%;
     height: 29%;
 }
- 
+
 .img-1::after {
-    background:  rgb(0,59,140,100%);
+    background: rgb(0, 59, 140, 100%);
     transform: rotate(10deg);
     border-radius: 5%;
     transition-duration: 300ms;
     left: 1%;
 }
- 
+
 .img-1::before {
-    background:  rgb(0,59,140,40%);
+    background: rgb(0, 59, 140, 40%);
     transform: rotate(-10deg);
     border-radius: 5%;
     transition-duration: 300ms;
-    
-    
+
+
 }
+
 .img-1:hover::after {
     transform: rotate(-9deg);
     transition-duration: 300ms
-  }
+}
+
 .img-1:hover::before {
     transform: rotate(10deg);
-    transition-duration:300ms;
-  }
+    transition-duration: 300ms;
+}
 
 
 
@@ -78,33 +85,35 @@ p{
     width: 25%;
     height: 29%;
 }
- 
+
 .img-2::after {
-    background: rgb(248,219,57,100%);
+    background: rgb(248, 219, 57, 100%);
     transform: rotate(9deg);
     border-radius: 5%;
-    transition-duration:300ms;
+    transition-duration: 300ms;
     left: 45%;
-    
-    
+
+
 }
- 
+
 .img-2::before {
-    background:  rgb(248,219,57,40%);
+    background: rgb(248, 219, 57, 40%);
     transform: rotate(-10deg);
     border-radius: 5%;
     transition-duration: 300ms;
-    
-    
+
+
 }
+
 .img-2:hover::after {
     transform: rotate(-9deg);
     transition-duration: 300ms
-  }
+}
+
 .img-2:hover::before {
     transform: rotate(10deg);
-    transition-duration:300ms;
-  }
+    transition-duration: 300ms;
+}
 
 .img-3::after,
 .img-3::before {
@@ -114,38 +123,73 @@ p{
     width: 25%;
     height: 29%;
 }
- 
+
 .img-3::after {
-    background: rgb(236, 111, 112,100%);
+    background: rgb(236, 111, 112, 100%);
     transform: rotate(9deg);
     border-radius: 5%;
-    transition-duration:300ms;
+    transition-duration: 300ms;
     left: 89%;
-    top:0% ;
-    
+    top: 0%;
+
 }
- 
+
 .img-3::before {
-    background:  rgb(236,111,112,40%);
+    background: rgb(236, 111, 112, 40%);
     transform: rotate(-10deg);
     border-radius: 5%;
     transition-duration: 300ms;
-    
-    
+
+
 }
+
 .img-3:hover::after {
     transform: rotate(-9deg);
     transition-duration: 300ms
-  }
+}
+
 .img-3:hover::before {
     transform: rotate(10deg);
-    transition-duration:300ms;
-  } 
+    transition-duration: 300ms;
+}
+
+.f3 {
+    padding-top: 42%;
+    color: #292929;
+    font-family: Poppins;
+    padding-left: 4%;
+    font-size: 27.113px;
+    font-weight: 600;
+}
+
+.box {
+    margin-top: 4%;
+    margin-left: 8%;
+    background-color: #003050;
+    width: 90%;
+    height: 1500%;
+    border-radius: 18px;
+}
+.box2 {
+    margin-top: 4%;
+    margin-left: 5%;
+    background-color: #101314;
+    width: 90%;
+    height: 1500%;
+    border-radius: 18px;
+}
+.box3 {
+    margin-top: 4%;
+    margin-left: 0%;
+    background-color: #3b98b7;
+    width: 90%;
+    height: 1500%;
+    border-radius: 18px;
+}
 
 
 
- 
-  
+
 
 
 
@@ -240,7 +284,7 @@ https://media.geeksforgeeks.org/wp-content/uploads/20201230184929/htmlcssjslogo.
         transform: translateY(0);
     }
 } */
- 
+
 /* @keyframes shrink {
     0% {
         transform: scale(0, 0);
