@@ -7,16 +7,16 @@
     font-weight: 600;
     
 }
-
- 
 .container {
-    width: 40.5em;
+    width: 46em;
     height: 45em;
     position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    
+ 
 }
  
 .img0 {
@@ -29,6 +29,7 @@
     background-position: left;
     /* animation: shrink 1s; */
 }
+
  
 .img0::after,
 .img0::before {
@@ -86,7 +87,7 @@
  
 .img1::after {
     background: rgb(240, 253, 61);
-    transform: rotate(9deg);
+    transform: rotate(10deg);
     border-radius: 5%;
     transition-duration:300ms;
     
@@ -99,13 +100,68 @@
     transition-duration: 300ms;
 }
 .img1:hover::after {
-    transform: rotate(-9deg);
+    transform: rotate(-10deg);
     transition-duration: 300ms
   }
   .img1:hover::before {
     transform: rotate(10deg);
     transition-duration:300ms;
   }
+
+
+
+
+
+  .img2 {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-right: 3em;
+    background-image: url(../../components/asserts/Rectangle3.png);
+    background-size: cover;
+    background-position: right;
+    /* animation: shrink 1s; */
+}
+ 
+.img2::after,
+.img2::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 95%;
+    height: 95%;
+}
+ 
+.img2::after {
+    background: rgb(233, 7, 7);
+    transform: rotate(10deg);
+    border-radius: 5%;
+    transition-duration:300ms;
+    
+}
+ 
+.img2::before {
+    background:  rgb(244, 158, 158);
+    transform: rotate(-10deg);
+    border-radius: 5%;
+    transition-duration: 300ms;
+}
+.img2:hover::after {
+    transform: rotate(-10deg);
+    transition-duration: 300ms
+  }
+  .img2:hover::before {
+    transform: rotate(10deg);
+    transition-duration:300ms;
+  }
+
+  .f2{
+    margin-top:28% ;
+    padding-left: 7%;
+    color: blue;
+  }
+
+
 
 
 
