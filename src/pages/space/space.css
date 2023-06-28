@@ -1,16 +1,16 @@
 .column-3 {
   float: left;
-  width: 50%;
+  width: 40%;
   
 }
 .column-4{
   float: left;
-  width: 30%;
+  width: 60%;
 
 }
 .box-1{
   margin-top: 7%;
-  width: 70%; 
+  width: 100%; 
   height: 540px;
   flex-shrink: 0;
   border-radius: 40px; 
@@ -18,7 +18,7 @@
 }
 .box-2{
   width: 85%;
-  height:25%;
+  height:24%;
   flex-shrink: 0;
   border-radius: 18px;
   background: #003050;
@@ -30,7 +30,7 @@
 }
 .box-3{
   width: 85%;
-  height:25%;
+  height:24%;
   flex-shrink: 0;
   border-radius: 18px;
   background: #F8DB39;
@@ -41,7 +41,7 @@
 }
 .box-4{
   width: 85%;
-  height:25%;
+  height:24%;
   flex-shrink: 0;
   border-radius: 18px;
   background: #EC6F70;
@@ -74,9 +74,15 @@
   line-height: 10px;
 }
 .activitybox-1{
-  /* line-height: 3px; */
+  line-height: 1px;
   padding-top: 8%;
 }
+.activitybox-2{
+  line-height: 10px;
+  
+  padding-left: 9%;
+}
+
 .arrow{
   width: 30px;
   height: 30px;
@@ -84,13 +90,17 @@
   margin-left: 65%;
 }
 
-.box-2 h6{
+.box-1 h6{
 margin-left: 6%;
 padding-right: 13%;
 color: #FFF;
-font-size: 2px;
+font-size: 65%;
 font-family: Poppins;
-font-weight: 800;
+font-weight: 200;
+padding-top: 2%;
+flex-direction: column;
+flex-shrink: 0;
+
 
   
 }
@@ -107,16 +117,60 @@ font-weight: 800;
   color: #FFF;
   font-size: 90%;
   font-family: Poppins;
-  font-weight: 500;
+  font-weight: 600;
   padding-left: 10%;
   text-decoration: none;
   
 }
 
 
-.box-2 h6{
-  color: #FFF;
-  font-size: 70%;
-  font-family: Poppins;
-  font-weight: 400;
+/* BOXS  */
+
+.boxs-1{
+  width: 57px;
+  height: 58px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #F5F7FF;
+  margin-left: 35%;
+}
+
+.btn-2{
+ 
+ padding-left: 57%;
+
+}
+
+
+.profile{
+  line-height: 1px;
+  padding-top: 6%;
+
+  
+}
+.pro-1{
+  color: #003050;
+font-size: 100%;
+font-family: Poppins;
+font-weight: 1000;
+}
+.pro-2{
+  color: #00D1FF;
+font-size: 12px;
+font-family: Poppins;
+font-weight: 500;
+}
+
+
+/* BOXS-2 */
+
+.boxs-2{
+  
+  padding-top: 10%;
+  margin-top: 4%;
+  width: 98%;
+  height: 430px;
+  border-radius: 40px;
+  background: #EDFBFF;
+  
 }
