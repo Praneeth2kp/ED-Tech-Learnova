@@ -17,17 +17,17 @@ function Flashcard() {
                 <div className='container-1'>
                     <div className='col c1'>
                         <a className='img-1'> <img src={rectangle1} /></a>
-                        <p>Lorem Ipsum</p>
+                        <p className='p1'>Lorem Ipsum</p>
                         <p className='f2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className='col'>
                         <a className='img-2'> <img src={rectangle2} /></a>
-                        <p>Lorem Ipsum </p>
+                        <p className='p1'>Lorem Ipsum </p>
                         <p className='f2'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className='col'>
                         <a className='img-3'> <img src={rectangle3} /></a>
-                        <p>Lorem Ipsum</p>
+                        <p className='p1'>Lorem Ipsum</p>
                         <p className='f2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                 </div>
