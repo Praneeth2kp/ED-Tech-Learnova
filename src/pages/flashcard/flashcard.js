@@ -19,23 +19,23 @@ function Flashcard() {
                 <div className='container-1'>
                     <div className='col c1'>
                         <div className='img-container'>
-                        <Link to='/flashcard2'>
-                        <a> <img src={rectangle1} /></a></Link>
+                            <Link to='/flashcard2'>
+                                <a> <img src={rectangle1} /></a></Link>
                         </div>
                         <p className='p1'>Lorem Ipsum</p>
                         <p className='f2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        
+
                     </div>
                     <div className='col'>
                         <div className='img-container2'>
-                        <Link to='/flashcard2'><img src={rectangle2} /></Link>
+                            <Link to='/flashcard2'><img src={rectangle2} /></Link>
                         </div>
                         <p className='p1'>Lorem Ipsum </p>
                         <p className='f2'> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     </div>
                     <div className='col'>
-                    <div className='img-container3'>
-                        <a > <img src={rectangle3} /></a>
+                        <div className='img-container3'>
+                            <a > <img src={rectangle3} /></a>
                         </div>
                         <p className='p1'>Lorem Ipsum</p>
                         <p className='f2'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>

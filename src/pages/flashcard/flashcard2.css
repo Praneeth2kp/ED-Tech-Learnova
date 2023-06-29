@@ -1,0 +1,66 @@
+.f-2 {
+    margin-top: 6%;
+    margin-left: 8%;
+    color: blue;
+  }
+  
+  .box4 {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin-top: 3%;
+    margin-left: 12%;
+    background-color: #003050;
+    border-radius: 20px;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  
+  .front,
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    transform: rotateY(0deg);
+  }
+  
+  .back {
+    background-color: rgb(115, 149, 234);
+    transform: rotateY(180deg);
+    border-radius: 18px;
+  }
+  
+  .front .text {
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 26.33px;
+    text-align: center;
+  }
+  
+  .text1 {
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 26.33px;
+    text-align: center;
+  }
+  
+  .flipped {
+    transform: rotateY(180deg);
+  }
+.text2{
+    padding-top: 2%;
+    padding-left: 90%;
+}
+  
