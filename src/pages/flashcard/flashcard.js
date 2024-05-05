@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// import rectangle1 from 'C:/Users/Balaji/Desktop/reactapp/reactapp/src/components/asserts/Rectangle1.png'/
 import rectangle1 from '../../components/asserts/Rectangle1.png';
 import rectangle2 from '../../components/asserts/Rectangle2.png';
 import rectangle3 from '../../components/asserts/Rectangle3.png';
